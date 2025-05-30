@@ -52,29 +52,15 @@ export default function Home() {
           </motion.div>
         </motion.div>
 
-        {/* Animated Background Elements */}
+        {/* Animated Blobs */}
         <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            rotate: [0, 180, 360],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Number.POSITIVE_INFINITY,
-            ease: "linear",
-          }}
+          animate={{ scale: [1, 1.2, 1], rotate: [0, 180, 360] }}
+          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
           className="absolute -right-24 -top-24 w-96 h-96 bg-green-200 rounded-full blur-3xl opacity-20"
         />
         <motion.div
-          animate={{
-            scale: [1.2, 1, 1.2],
-            rotate: [360, 180, 0],
-          }}
-          transition={{
-            duration: 20,
-            repeat: Number.POSITIVE_INFINITY,
-            ease: "linear",
-          }}
+          animate={{ scale: [1.2, 1, 1.2], rotate: [360, 180, 0] }}
+          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
           className="absolute -left-24 -bottom-24 w-96 h-96 bg-green-300 rounded-full blur-3xl opacity-20"
         />
       </section>
@@ -130,7 +116,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* User Suggestions Section */}
+      {/* Eco-Friendly Tips Section */}
       <section className="py-20 bg-gray-50">
         <div className="container px-4 mx-auto">
           <motion.div
@@ -170,4 +156,3 @@ export default function Home() {
     </div>
   )
 }
-

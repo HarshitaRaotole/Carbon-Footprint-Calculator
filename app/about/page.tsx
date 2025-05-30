@@ -11,7 +11,9 @@ export default function About() {
         transition={{ duration: 0.5 }}
         className="max-w-3xl mx-auto space-y-8"
       >
-        <h1 className="text-4xl font-bold text-center text-gray-900">About CO2 Ninja</h1>
+        <h1 className="text-4xl font-bold text-center text-gray-900">
+          About CO2 Ninja
+        </h1>
 
         <motion.section
           initial={{ opacity: 0, x: -20 }}
@@ -21,7 +23,7 @@ export default function About() {
         >
           <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
           <p className="text-gray-700">
-            At CO2 Ninja, we're committed to helping individuals and organizations understand and reduce their
+            At CO2 Ninja, we&apos;re committed to helping individuals and organizations understand and reduce their
             environmental impact. Our user-friendly carbon footprint calculator provides personalized insights and
             actionable recommendations to create a more sustainable future.
           </p>
@@ -49,7 +51,7 @@ export default function About() {
         >
           <h2 className="text-2xl font-semibold mb-4">Join Us in Making a Difference</h2>
           <p className="text-gray-700">
-            Climate change is one of the most pressing issues of our time. By using CO2 Ninja, you're taking an important
+            Climate change is one of the most pressing issues of our time. By using CO2 Ninja, you&apos;re taking an important
             step towards understanding your role in this global challenge. Together, we can work towards a more
             sustainable and environmentally friendly world.
           </p>
@@ -58,4 +60,3 @@ export default function About() {
     </div>
   )
 }
-
